@@ -1,0 +1,43 @@
+.container{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    
+}
+
+.articles{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+.art{
+    background-color: $color-2;
+    border-width: 3px;
+    margin-left: 1%;
+    border: solid;
+    border-radius: 30px;
+    border-color: $color-3;
+    text-transform: none;
+    
+}
+
+.art{
+    color: $color-3;
+    text-transform: none;
+    padding-top:auto;
+    margin: 5%;
+    padding-right: 5%;
+    padding-left:  5%;
+    a{
+        text-transform: none;
+        color: $color-3;
+    }
+    
+    
+}
+
+.articles{
+    justify-content: center;
+}
